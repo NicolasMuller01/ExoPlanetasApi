@@ -1,0 +1,1101 @@
+
+    [
+        {
+            "nombre": "Kepler-705 b",
+            "temp": "-40",
+            "radius": "1.94",
+            "orbitalPeriod": "56"
+        },
+        {
+            "nombre": "Kepler-712 c",
+            "temp": "-37",
+            "radius": "4.53",
+            "orbitalPeriod": "227"
+        },
+        {
+            "nombre": "Kepler-421 b",
+            "temp": "-95",
+            "radius": "4.53",
+            "orbitalPeriod": "705"
+        },
+        {
+            "nombre": "Kepler-283 c",
+            "temp": "-33",
+            "radius": "1.87",
+            "orbitalPeriod": "93"
+        },
+        {
+            "nombre": "Kepler-309 c",
+            "temp": "-69",
+            "radius": "1.87",
+            "orbitalPeriod": "105"
+        },
+        {
+            "nombre": "Kepler-458 b",
+            "temp": "-9",
+            "radius": "5.8",
+            "orbitalPeriod": "572"
+        },
+        {
+            "nombre": "Kepler-1058 b",
+            "temp": "-34",
+            "radius": "2.11",
+            "orbitalPeriod": "111"
+        },
+        {
+            "nombre": "Kepler-991 b",
+            "temp": "-13",
+            "radius": "2.45",
+            "orbitalPeriod": "83"
+        },
+        {
+            "nombre": "Kepler-1097 b",
+            "temp": "-6",
+            "radius": "2.95",
+            "orbitalPeriod": "188"
+        },
+        {
+            "nombre": "Kepler-1229 b",
+            "temp": "-77",
+            "radius": "1.68",
+            "orbitalPeriod": "87"
+        },
+        {
+            "nombre": "Kepler-37 e",
+            "temp": "-273",
+            "radius": "null",
+            "orbitalPeriod": "51"
+        },
+        {
+            "nombre": "Kepler-1652 b",
+            "temp": "-31",
+            "radius": "1.58",
+            "orbitalPeriod": "38"
+        },
+        {
+            "nombre": "Kepler-1318 b",
+            "temp": "-71",
+            "radius": "2.72",
+            "orbitalPeriod": "213"
+        },
+        {
+            "nombre": "Kepler-1868 b",
+            "temp": "-58",
+            "radius": "3.43",
+            "orbitalPeriod": "211"
+        },
+        {
+            "nombre": "Kepler-1362 b",
+            "temp": "-25",
+            "radius": "2.35",
+            "orbitalPeriod": "136"
+        },
+        {
+            "nombre": "Kepler-1690 b",
+            "temp": "-6",
+            "radius": "2.56",
+            "orbitalPeriod": "235"
+        },
+        {
+            "nombre": "Kepler-1341 b",
+            "temp": "-32",
+            "radius": "2.51",
+            "orbitalPeriod": "133"
+        },
+        {
+            "nombre": "Kepler-1410 b",
+            "temp": "-29",
+            "radius": "1.39",
+            "orbitalPeriod": "61"
+        },
+        {
+            "nombre": "Kepler-1704 b",
+            "temp": "-50",
+            "radius": "10.81",
+            "orbitalPeriod": "989"
+        },
+        {
+            "nombre": "Kepler-1649 c",
+            "temp": "-112",
+            "radius": "0.53",
+            "orbitalPeriod": "20"
+        },
+        {
+            "nombre": "Kepler-553 c",
+            "temp": "-49",
+            "radius": "10.99",
+            "orbitalPeriod": "328"
+        },
+        {
+            "nombre": "Kepler-167 e",
+            "temp": "-144",
+            "radius": "9.27",
+            "orbitalPeriod": "1071"
+        },
+        {
+            "nombre": "Kepler-155 c",
+            "temp": "-2",
+            "radius": "1.87",
+            "orbitalPeriod": "53"
+        },
+        {
+            "nombre": "Kepler-22 b",
+            "temp": "-16",
+            "radius": "2.34",
+            "orbitalPeriod": "290"
+        },
+        {
+            "nombre": "Kepler-560 b",
+            "temp": "-6",
+            "radius": "1.55",
+            "orbitalPeriod": "18"
+        },
+        {
+            "nombre": "Kepler-174 d",
+            "temp": "-61",
+            "radius": "2.29",
+            "orbitalPeriod": "247"
+        },
+        {
+            "nombre": "Kepler-62 e",
+            "temp": "-4",
+            "radius": "1.72",
+            "orbitalPeriod": "122"
+        },
+        {
+            "nombre": "Kepler-440 b",
+            "temp": "-44",
+            "radius": "1.61",
+            "orbitalPeriod": "101"
+        },
+        {
+            "nombre": "Kepler-1552 b",
+            "temp": "-5",
+            "radius": "2.41",
+            "orbitalPeriod": "185"
+        },
+        {
+            "nombre": "Kepler-1544 b",
+            "temp": "-32",
+            "radius": "1.69",
+            "orbitalPeriod": "169"
+        },
+        {
+            "nombre": "Kepler-186 f",
+            "temp": "-96",
+            "radius": "1.18",
+            "orbitalPeriod": "130"
+        },
+        {
+            "nombre": "Kepler-1593 b",
+            "temp": "-87",
+            "radius": "1.74",
+            "orbitalPeriod": "175"
+        },
+        {
+            "nombre": "Kepler-1653 b",
+            "temp": "-2",
+            "radius": "1.84",
+            "orbitalPeriod": "140"
+        },
+        {
+            "nombre": "Kepler-441 b",
+            "temp": "-84",
+            "radius": "1.56",
+            "orbitalPeriod": "207"
+        },
+        {
+            "nombre": "Kepler-296 f",
+            "temp": "-71",
+            "radius": "1.18",
+            "orbitalPeriod": "63"
+        },
+        {
+            "nombre": "Kepler-442 b",
+            "temp": "-32",
+            "radius": "1.3",
+            "orbitalPeriod": "112"
+        },
+        {
+            "nombre": "Kepler-443 b",
+            "temp": "-40",
+            "radius": "2.32",
+            "orbitalPeriod": "178"
+        },
+        {
+            "nombre": "Kepler-1455 b",
+            "temp": "-2",
+            "radius": "1.75",
+            "orbitalPeriod": "49"
+        },
+        {
+            "nombre": "Kepler-967 c",
+            "temp": "-15",
+            "radius": "3.56",
+            "orbitalPeriod": "199"
+        },
+        {
+            "nombre": "Kepler-1086 c",
+            "temp": "-62",
+            "radius": "2.88",
+            "orbitalPeriod": "162"
+        },
+        {
+            "nombre": "Kepler-86 b",
+            "temp": "-9",
+            "radius": "8.98",
+            "orbitalPeriod": "283"
+        },
+        {
+            "nombre": "Kepler-1536 b",
+            "temp": "-107",
+            "radius": "2.89",
+            "orbitalPeriod": "365"
+        },
+        {
+            "nombre": "Kepler-1540 b",
+            "temp": "-7",
+            "radius": "3.14",
+            "orbitalPeriod": "125"
+        },
+        {
+            "nombre": "Kepler-296 e",
+            "temp": "-25",
+            "radius": "1.06",
+            "orbitalPeriod": "34"
+        },
+        {
+            "nombre": "Kepler-1649 b",
+            "temp": "-62",
+            "radius": "0.49",
+            "orbitalPeriod": "9"
+        },
+        {
+            "nombre": "Kepler-62 f",
+            "temp": "-66",
+            "radius": "1.43",
+            "orbitalPeriod": "267"
+        },
+        {
+            "nombre": "Kepler-1628 b",
+            "temp": "-33",
+            "radius": "6.28",
+            "orbitalPeriod": "76"
+        },
+        {
+            "nombre": "Kepler-1630 b",
+            "temp": "-91",
+            "radius": "2.62",
+            "orbitalPeriod": "510"
+        },
+        {
+            "nombre": "Kepler-1636 b",
+            "temp": "-25",
+            "radius": "3.2",
+            "orbitalPeriod": "425"
+        },
+        {
+            "nombre": "Kepler-1635 b",
+            "temp": "-73",
+            "radius": "3.24",
+            "orbitalPeriod": "470"
+        },
+        {
+            "nombre": "Kepler-1600 b",
+            "temp": "-64",
+            "radius": "2.96",
+            "orbitalPeriod": "386"
+        },
+        {
+            "nombre": "Kepler-1143 c",
+            "temp": "-39",
+            "radius": "3.23",
+            "orbitalPeriod": "211"
+        },
+        {
+            "nombre": "Kepler-452 b",
+            "temp": "-53",
+            "radius": "1.09",
+            "orbitalPeriod": "385"
+        },
+        {
+            "nombre": "Kepler-227 b",
+            "temp": "520",
+            "radius": "2.26",
+            "orbitalPeriod": "9"
+        },
+        {
+            "nombre": "Kepler-227 c",
+            "temp": "170",
+            "radius": "2.83",
+            "orbitalPeriod": "54"
+        },
+        {
+            "nombre": "Kepler-664 b",
+            "temp": "1133",
+            "radius": "2.75",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-228 d",
+            "temp": "562",
+            "radius": "3.9",
+            "orbitalPeriod": "11"
+        },
+        {
+            "nombre": "Kepler-228 c",
+            "temp": "887",
+            "radius": "2.77",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-228 b",
+            "temp": "1087",
+            "radius": "1.59",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-229 c",
+            "temp": "327",
+            "radius": "5.76",
+            "orbitalPeriod": "16"
+        },
+        {
+            "nombre": "Kepler-1 b",
+            "temp": "1066",
+            "radius": "13.04",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-2 b",
+            "temp": "1775",
+            "radius": "16.1",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-8 b",
+            "temp": "1248",
+            "radius": "14.59",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-466 c",
+            "temp": "933",
+            "radius": "1.16",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-660 b",
+            "temp": "376",
+            "radius": "2.47",
+            "orbitalPeriod": "9"
+        },
+        {
+            "nombre": "Kepler-661 b",
+            "temp": "405",
+            "radius": "2.85",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-226 c",
+            "temp": "646",
+            "radius": "2.55",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-226 b",
+            "temp": "745",
+            "radius": "1.7",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-226 d",
+            "temp": "527",
+            "radius": "1.3",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-662 b",
+            "temp": "257",
+            "radius": "2.95",
+            "orbitalPeriod": "22"
+        },
+        {
+            "nombre": "Kepler-663 b",
+            "temp": "644",
+            "radius": "2.78",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-671 b",
+            "temp": "739",
+            "radius": "2.3",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-672 b",
+            "temp": "256",
+            "radius": "2.82",
+            "orbitalPeriod": "38"
+        },
+        {
+            "nombre": "Kepler-229 d",
+            "temp": "166",
+            "radius": "3.86",
+            "orbitalPeriod": "41"
+        },
+        {
+            "nombre": "Kepler-229 b",
+            "temp": "550",
+            "radius": "2.65",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-665 b",
+            "temp": "320",
+            "radius": "3.1",
+            "orbitalPeriod": "16"
+        },
+        {
+            "nombre": "Kepler-230 b",
+            "temp": "233",
+            "radius": "3.36",
+            "orbitalPeriod": "33"
+        },
+        {
+            "nombre": "Kepler-230 c",
+            "temp": "86",
+            "radius": "2.12",
+            "orbitalPeriod": "92"
+        },
+        {
+            "nombre": "Kepler-666 b",
+            "temp": "860",
+            "radius": "2.1",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-105 b",
+            "temp": "820",
+            "radius": "2.94",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-667 b",
+            "temp": "243",
+            "radius": "5.5",
+            "orbitalPeriod": "41"
+        },
+        {
+            "nombre": "Kepler-668 b",
+            "temp": "517",
+            "radius": "2.52",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-669 b",
+            "temp": "970",
+            "radius": "4.43",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-670 b",
+            "temp": "946",
+            "radius": "12.21",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-680 b",
+            "temp": "874",
+            "radius": "1.89",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-232 b",
+            "temp": "831",
+            "radius": "3.25",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-232 c",
+            "temp": "533",
+            "radius": "3.95",
+            "orbitalPeriod": "11"
+        },
+        {
+            "nombre": "Kepler-681 b",
+            "temp": "216",
+            "radius": "3.07",
+            "orbitalPeriod": "26"
+        },
+        {
+            "nombre": "Kepler-106 c",
+            "temp": "512",
+            "radius": "2.64",
+            "orbitalPeriod": "14"
+        },
+        {
+            "nombre": "Kepler-105 c",
+            "temp": "724",
+            "radius": "1.79",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-52 c",
+            "temp": "160",
+            "radius": "2",
+            "orbitalPeriod": "16"
+        },
+        {
+            "nombre": "Kepler-52 b",
+            "temp": "280",
+            "radius": "2.16",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-52 d",
+            "temp": "59",
+            "radius": "1.99",
+            "orbitalPeriod": "36"
+        },
+        {
+            "nombre": "Kepler-673 b",
+            "temp": "750",
+            "radius": "6.02",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-674 b",
+            "temp": "549",
+            "radius": "1.99",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-675 b",
+            "temp": "797",
+            "radius": "2.34",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-676 b",
+            "temp": "123",
+            "radius": "2.65",
+            "orbitalPeriod": "12"
+        },
+        {
+            "nombre": "Kepler-677 b",
+            "temp": "742",
+            "radius": "5.31",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-678 b",
+            "temp": "560",
+            "radius": "4.86",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-231 c",
+            "temp": "120",
+            "radius": "1.93",
+            "orbitalPeriod": "19"
+        },
+        {
+            "nombre": "Kepler-231 b",
+            "temp": "215",
+            "radius": "1.91",
+            "orbitalPeriod": "10"
+        },
+        {
+            "nombre": "Kepler-679 b",
+            "temp": "404",
+            "radius": "2.66",
+            "orbitalPeriod": "12"
+        },
+        {
+            "nombre": "Kepler-106 e",
+            "temp": "258",
+            "radius": "2.87",
+            "orbitalPeriod": "44"
+        },
+        {
+            "nombre": "Kepler-234 b",
+            "temp": "1147",
+            "radius": "3.12",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-234 c",
+            "temp": "752",
+            "radius": "3.32",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-233 b",
+            "temp": "478",
+            "radius": "2.59",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-233 c",
+            "temp": "117",
+            "radius": "2.36",
+            "orbitalPeriod": "60"
+        },
+        {
+            "nombre": "Kepler-682 b",
+            "temp": "480",
+            "radius": "7.4",
+            "orbitalPeriod": "13"
+        },
+        {
+            "nombre": "Kepler-683 b",
+            "temp": "1059",
+            "radius": "2.06",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-684 b",
+            "temp": "539",
+            "radius": "2.77",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-235 d",
+            "temp": "88",
+            "radius": "1.96",
+            "orbitalPeriod": "20"
+        },
+        {
+            "nombre": "Kepler-235 e",
+            "temp": "0",
+            "radius": "1.83",
+            "orbitalPeriod": "46"
+        },
+        {
+            "nombre": "Kepler-106 d",
+            "temp": "376",
+            "radius": "1.31",
+            "orbitalPeriod": "24"
+        },
+        {
+            "nombre": "Kepler-235 c",
+            "temp": "221",
+            "radius": "1.2",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-688 b",
+            "temp": "732",
+            "radius": "7.34",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-689 b",
+            "temp": "263",
+            "radius": "2.32",
+            "orbitalPeriod": "22"
+        },
+        {
+            "nombre": "Kepler-685 b",
+            "temp": "1306",
+            "radius": "9.73",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-1727 b",
+            "temp": "484",
+            "radius": "2.57",
+            "orbitalPeriod": "9"
+        },
+        {
+            "nombre": "Kepler-30 d",
+            "temp": "35",
+            "radius": "8.9",
+            "orbitalPeriod": "143"
+        },
+        {
+            "nombre": "Kepler-106 b",
+            "temp": "748",
+            "radius": "0.79",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-30 c",
+            "temp": "138",
+            "radius": "12.19",
+            "orbitalPeriod": "60"
+        },
+        {
+            "nombre": "Kepler-30 b",
+            "temp": "251",
+            "radius": "1.91",
+            "orbitalPeriod": "29"
+        },
+        {
+            "nombre": "Kepler-686 b",
+            "temp": "1266",
+            "radius": "11.3",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-1728 b",
+            "temp": "613",
+            "radius": "2.5",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-687 b",
+            "temp": "245",
+            "radius": "3.41",
+            "orbitalPeriod": "21"
+        },
+        {
+            "nombre": "Kepler-235 b",
+            "temp": "383",
+            "radius": "2.03",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-53 b",
+            "temp": "428",
+            "radius": "3.12",
+            "orbitalPeriod": "19"
+        },
+        {
+            "nombre": "Kepler-107 c",
+            "temp": "989",
+            "radius": "1.7",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-53 d",
+            "temp": "597",
+            "radius": "2.76",
+            "orbitalPeriod": "10"
+        },
+        {
+            "nombre": "Kepler-53 c",
+            "temp": "277",
+            "radius": "4.02",
+            "orbitalPeriod": "39"
+        },
+        {
+            "nombre": "Kepler-428 b",
+            "temp": "702",
+            "radius": "11.58",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-690 b",
+            "temp": "691",
+            "radius": "5.52",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-236 c",
+            "temp": "56",
+            "radius": "1.8",
+            "orbitalPeriod": "24"
+        },
+        {
+            "nombre": "Kepler-236 b",
+            "temp": "196",
+            "radius": "1.82",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-691 b",
+            "temp": "187",
+            "radius": "2.1",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-107 e",
+            "temp": "601",
+            "radius": "2.89",
+            "orbitalPeriod": "15"
+        },
+        {
+            "nombre": "Kepler-692 b",
+            "temp": "366",
+            "radius": "3.38",
+            "orbitalPeriod": "22"
+        },
+        {
+            "nombre": "Kepler-693 b",
+            "temp": "327",
+            "radius": "11.01",
+            "orbitalPeriod": "15"
+        },
+        {
+            "nombre": "Kepler-237 c",
+            "temp": "414",
+            "radius": "2.11",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-237 b",
+            "temp": "550",
+            "radius": "1.46",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-694 b",
+            "temp": "641",
+            "radius": "2.44",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-695 b",
+            "temp": "748",
+            "radius": "8.99",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-27 b",
+            "temp": "337",
+            "radius": "5",
+            "orbitalPeriod": "15"
+        },
+        {
+            "nombre": "Kepler-107 d",
+            "temp": "801",
+            "radius": "1.06",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-27 c",
+            "temp": "208",
+            "radius": "6.5",
+            "orbitalPeriod": "31"
+        },
+        {
+            "nombre": "Kepler-238 e",
+            "temp": "458",
+            "radius": "7.89",
+            "orbitalPeriod": "24"
+        },
+        {
+            "nombre": "Kepler-238 d",
+            "temp": "615",
+            "radius": "3.06",
+            "orbitalPeriod": "13"
+        },
+        {
+            "nombre": "Kepler-238 c",
+            "temp": "873",
+            "radius": "2.32",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-238 b",
+            "temp": "1369",
+            "radius": "1.62",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-107 b",
+            "temp": "1185",
+            "radius": "1.53",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-238 f",
+            "temp": "295",
+            "radius": "2.67",
+            "orbitalPeriod": "50"
+        },
+        {
+            "nombre": "Kepler-239 b",
+            "temp": "343",
+            "radius": "2.35",
+            "orbitalPeriod": "12"
+        },
+        {
+            "nombre": "Kepler-239 c",
+            "temp": "93",
+            "radius": "2.37",
+            "orbitalPeriod": "56"
+        },
+        {
+            "nombre": "Kepler-240 c",
+            "temp": "423",
+            "radius": "2.25",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-240 b",
+            "temp": "591",
+            "radius": "1.48",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-702 b",
+            "temp": "440",
+            "radius": "8.24",
+            "orbitalPeriod": "11"
+        },
+        {
+            "nombre": "Kepler-703 b",
+            "temp": "765",
+            "radius": "5.39",
+            "orbitalPeriod": "5"
+        },
+        {
+            "nombre": "Kepler-704 b",
+            "temp": "848",
+            "radius": "2.66",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-242 b",
+            "temp": "469",
+            "radius": "3.01",
+            "orbitalPeriod": "8"
+        },
+        {
+            "nombre": "Kepler-242 c",
+            "temp": "340",
+            "radius": "3.01",
+            "orbitalPeriod": "14"
+        },
+        {
+            "nombre": "Kepler-27 d",
+            "temp": "537",
+            "radius": "2.19",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-241 b",
+            "temp": "289",
+            "radius": "2.31",
+            "orbitalPeriod": "13"
+        },
+        {
+            "nombre": "Kepler-241 c",
+            "temp": "124",
+            "radius": "2.64",
+            "orbitalPeriod": "36"
+        },
+        {
+            "nombre": "Kepler-696 b",
+            "temp": "961",
+            "radius": "6.21",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-697 b",
+            "temp": "878",
+            "radius": "4.35",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-698 b",
+            "temp": "454",
+            "radius": "3.75",
+            "orbitalPeriod": "16"
+        },
+        {
+            "nombre": "Kepler-699 b",
+            "temp": "281",
+            "radius": "13.84",
+            "orbitalPeriod": "28"
+        },
+        {
+            "nombre": "Kepler-700 b",
+            "temp": "179",
+            "radius": "7.59",
+            "orbitalPeriod": "81"
+        },
+        {
+            "nombre": "Kepler-467 b",
+            "temp": "439",
+            "radius": "2.29",
+            "orbitalPeriod": "25"
+        },
+        {
+            "nombre": "Kepler-701 b",
+            "temp": "504",
+            "radius": "2.47",
+            "orbitalPeriod": "10"
+        },
+        {
+            "nombre": "Kepler-709 b",
+            "temp": "340",
+            "radius": "3.68",
+            "orbitalPeriod": "16"
+        },
+        {
+            "nombre": "Kepler-245 b",
+            "temp": "480",
+            "radius": "2.56",
+            "orbitalPeriod": "7"
+        },
+        {
+            "nombre": "Kepler-245 d",
+            "temp": "172",
+            "radius": "3.03",
+            "orbitalPeriod": "36"
+        },
+        {
+            "nombre": "Kepler-245 c",
+            "temp": "295",
+            "radius": "2.32",
+            "orbitalPeriod": "17"
+        },
+        {
+            "nombre": "Kepler-705 b",
+            "temp": "-40",
+            "radius": "1.94",
+            "orbitalPeriod": "56"
+        },
+        {
+            "nombre": "Kepler-706 b",
+            "temp": "180",
+            "radius": "11.38",
+            "orbitalPeriod": "41"
+        },
+        {
+            "nombre": "Kepler-243 b",
+            "temp": "577",
+            "radius": "2.47",
+            "orbitalPeriod": "6"
+        },
+        {
+            "nombre": "Kepler-108 b",
+            "temp": "396",
+            "radius": "8.2",
+            "orbitalPeriod": "49"
+        },
+        {
+            "nombre": "Kepler-243 c",
+            "temp": "286",
+            "radius": "2.28",
+            "orbitalPeriod": "20"
+        },
+        {
+            "nombre": "Kepler-707 b",
+            "temp": "887",
+            "radius": "1.41",
+            "orbitalPeriod": "2"
+        },
+        {
+            "nombre": "Kepler-708 b",
+            "temp": "948",
+            "radius": "2.62",
+            "orbitalPeriod": "3"
+        },
+        {
+            "nombre": "Kepler-244 b",
+            "temp": "765",
+            "radius": "3.11",
+            "orbitalPeriod": "4"
+        },
+        {
+            "nombre": "Kepler-244 d",
+            "temp": "349",
+            "radius": "2.69",
+            "orbitalPeriod": "20"
+        }
+]

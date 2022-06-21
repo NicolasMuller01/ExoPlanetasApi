@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Exoplanetas</title>
+</head>
+<body>
+<header>
+    <div class="div-logo">
+        <img class="logo-img" src="/images/icono.png">
+    </div>
+</header>
+ <div class="body-conteiner">
+    <div class="temperatura">
+        <div class="conteiner"><img class="temperatura-extremadamente-fria" src="/iconos/ice.png"><p>Frio Extremo</p></img></div>
+        <div class="conteiner"><img class="temperatura-fria" src="/iconos/frio.png"><p>Frio Alto</p></img></div>
+        <div class="conteiner"><img class="temperatura-similar-tierra" src="/iconos/normal.png"><p>Similar a la tierra</p></img></div>
+        <div class="conteiner"><img class="temperatura-muy-alta" src="/iconos/calor.png"><p>Calor Extremo</p></img></div>
+        <div class="conteiner"><img class="temperatura-extremadamente-alta" src="/iconos/hell.png" ><p>Infierno</p></img></div>
+    </div>
+   <div class="div-filter-conteiner">
+    <select class="tamaño">
+        <option value="">---Filtrar por tamaño---</option>
+        <option value="all">Cualquier tamaño</option>
+        <option value="Pequeño">Pequeño</option>
+        <option value="Mediano">Mediano</option>
+        <option value="Gigante">Gigante</option>
+        <option value="Colosal">Colosal</option>
+    </select>
+    <button class="tamano-btn">Filtrar</button>
+    </div>
+    <div class="divConteinerOrdenador">
+        <!-- <div class="planetConteiner">
+            <div class="div1">
+                <model-viewer class="icono" src="/3d-models/Moon.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" camera-controls disable-pan disable-zoom></model-viewer>
+                <h1>KEPPLER 233</h1>
+            </div>
+            <div class="div2">
+                <h2>Temperatura: 1231</h2>
+                <h2>Periodo Orbital:232</h2>
+                <h2>Tamaño: veces la tierra</h2>
+            </div>
+            <div class="div3">
+                <model-viewer class="earth" src="/3d-models/Earth.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" camera-controls disable-pan disable-zoom></model-viewer>
+                <model-viewer class="kepler"src="/3d-models/Moon.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" camera-controls disable-pan disable-zoom></model-viewer>
+            </div>
+        </div> -->
+    </div>
+        <div class="buttons-div">
+            <button class="posterior">Posterior</button>
+            <button class="siguiente">Siguiente</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
