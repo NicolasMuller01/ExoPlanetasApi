@@ -4,6 +4,7 @@ const btnTamano = document.querySelector('.tamano-btn')
 const btnSiguiente = document.querySelector('.siguiente')
 const btnPosterior = document.querySelector('.posterior')
 
+contadorTodos = 0;
 contadorMedianos = 0;
 contadorGrandes = 0;
 contadorColosales = 0;
@@ -13,9 +14,11 @@ let medianos,gigantes,colosales;
 window.addEventListener('DOMContentLoaded',async()=>{
     const planets = await fetch('/planetsFiltered.json')
     planetsJson = await planets.json()
-        for(let i=0;i<3;i++){
-            funcionTamaño(planetsJson[i])
-        }
+        for(let i=6;i<9;i++){
+        funcionTamaño(planetsJson[i])
+    }
+    btnPosterior.disabled = true;
+    btnSiguiente.disabled = true;
     medianos = planetsJson.filter(item =>item.radius>=1 &&  item.radius<=1.5).map(item=>({
         nombre: item.nombre,
         temp: item.temp,
@@ -36,12 +39,14 @@ window.addEventListener('DOMContentLoaded',async()=>{
         radius: item.radius,
         orbitalPeriod: item.orbitalPeriod
     })).sort((planet1,planet2)=>planet1.radius > planet2.radius ? 1 : -1)
-    console.log(colosales)
 
 })
 
-btnTamano.addEventListener('click',(e)=>{
+btnTamano.addEventListener('click',()=>{
     divConteinerOrdenador.innerHTML=''
+    contadorMedianos = 0;
+    contadorGrandes = 0;
+    contadorColosales = 0;
     if(selectTamaño.value=='Pequeño'){
         const pequeños = planetsJson.filter(item =>item.radius<1).map(item=>({
             nombre: item.nombre,
@@ -49,17 +54,27 @@ btnTamano.addEventListener('click',(e)=>{
             radius: item.radius,
             orbitalPeriod: item.orbitalPeriod
         })).sort((planet1,planet2)=>planet1.radius > planet2.radius ? 1 : -1)
-        contadorMedianos = 0;
-        contadorGrandes = 0;
-        contadorColosales = 0;
+        btnPosterior.disabled = true;
+        btnSiguiente.disabled = true;
         for(let i=0;i<3;i++){
             funcionTamaño(pequeños[i])
         }
+    }
+    else if(selectTamaño.value=='all'){
+        contadorMedianos = 0;
+        contadorGrandes = 0;
+        contadorColosales = 0;
+        contadorTodos=0;
+        for(let i=contadorTodos;i<contadorTodos+3;i++){
+            funcionTamaño(planetsJson[i])
+        }
+        btnSiguiente.disabled = false;
     }
     else if(selectTamaño.value=='Mediano'){
         contadorMedianos = 0;
         contadorGrandes = 0;
         contadorColosales = 0;
+        contadorTodos=0;
         btnSiguiente.disabled = false;
         for(let i=contadorMedianos;i<contadorMedianos+3;i++){
             funcionTamaño(medianos[i])
@@ -69,6 +84,7 @@ btnTamano.addEventListener('click',(e)=>{
         contadorMedianos = 0;
         contadorGrandes = 0;
         contadorColosales = 0;
+        contadorTodos=0;
         btnSiguiente.disabled = false;
         for(let i=contadorGrandes;i<contadorGrandes+3;i++){
             funcionTamaño(gigantes[i])
@@ -78,10 +94,18 @@ btnTamano.addEventListener('click',(e)=>{
         contadorMedianos = 0;
         contadorGrandes = 0;
         contadorColosales = 0;
+        contadorTodos=0;
         btnSiguiente.disabled = false;
         for(let i=0;i<3;i++){
             funcionTamaño(colosales[i])
         }
+    }
+    else{
+        for(let i=6;i<9;i++){
+            funcionTamaño(planetsJson[i])
+        }
+        btnPosterior.disabled = true;
+        btnSiguiente.disabled = true;
     }
 })
 
@@ -91,26 +115,31 @@ btnSiguiente.addEventListener('click',()=>{
         for(let i = contadorMedianos;i<contadorMedianos+3;i++){
             funcionTamaño(medianos[i])
         }
-        console.log(contadorMedianos)
-        console.log(medianos.length)
         contadorMedianos<medianos.length-3 ? contadorMedianos+=3 : btnSiguiente.disabled = true;
     }
     else if(selectTamaño.value=='Gigante'){
         for(let i = contadorGrandes;i<contadorGrandes+3;i++){
             funcionTamaño(gigantes[i])
         }
-        console.log(contadorGrandes)
-        console.log(gigantes.length)
         contadorGrandes<gigantes.length-20 ? contadorGrandes+=3 : btnSiguiente.disabled = true;
     }
     else if(selectTamaño.value=='Colosal'){
         for(let i = contadorColosales;i<contadorColosales+3;i++){
             funcionTamaño(colosales[i])
         }
-        console.log(contadorGrandes)
-        console.log(gigantes.length)
         contadorColosales<colosales.length-3 ? contadorColosales+=3 : btnSiguiente.disabled = true;
     }
+    else if(selectTamaño.value=='all'){
+        for(let i = contadorTodos;i<contadorTodos+3;i++){
+            funcionTamaño(planetsJson[i])
+            console.log(i)
+        }
+        contadorTodos<105 ? contadorTodos+=3 : btnSiguiente.disabled = true;
+    }
+})
+
+btnPosterior.addEventListener('click',()=>{
+
 })
 
 const funcionTamaño = (obj)=>{
@@ -145,7 +174,7 @@ return divConteinerOrdenador.innerHTML+=
 </div>
 <div class="div3">
     <model-viewer class="earth" src="/3d-models/Earth.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager" disable-pan disable-zoom></model-viewer>
-    <model-viewer class="${nombre}" src="/3d-models/${skin}" style="height:${60*radius}px; width:${60*radius}px;" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager"disable-pan disable-zoom></model-viewer>
+    <model-viewer class="${nombre}" src="/3d-models/${skin}" style="height:${radius<6 ? 60*radius : 30*radius}px; width:${radius<6 ? 60*radius : 30*radius}px;" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager"disable-pan disable-zoom></model-viewer>
 </div>
 </div>
 `
