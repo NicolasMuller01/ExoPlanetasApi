@@ -239,6 +239,7 @@ abbr{
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
+    cursor:pointer;
 }
 .icono{
 
@@ -305,6 +306,7 @@ button[disabled]{
   pointer-events:none;
 }
 
+//queryes
 @media (min-width: 200px)and(max-width:299px){
     body{
         font-size: 8px;
@@ -372,6 +374,9 @@ button[disabled]{
     .a{
         width: 40px;
         height: 40px;
+    }
+    .musica-div{
+        width: 70px;
     }
  }
 

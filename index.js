@@ -20,11 +20,6 @@ contadorColosales = 0;
 let planetsJson;
 let medianos,gigantes,colosales,frioExtremo,frioAlto,similarTierra,calorExtremo,infierno;
 
-sound.autoplay = true;
-sound.load();
-sound.volume = 0.3;
-sound.loop=true;
-
 playBtn.addEventListener('click',()=>{
     sound.play();
     sound.volume = 0.3;
@@ -36,6 +31,7 @@ stopBtn.addEventListener('click',()=>{
 })
 
 window.addEventListener('DOMContentLoaded',async()=>{
+    
     const planets = await fetch('/planetsFiltered.json')
     planetsJson = await planets.json()
         for(let i=6;i<9;i++){
@@ -127,7 +123,7 @@ btnTamano.addEventListener('click',()=>{
         contadorTodos=0;
         btnSiguiente.disabled = false;
         btnPosterior.disabled = true;
-        for(let i=contadorTodos;i<contadorTodos+3;i++){
+        for(let i=0;i<3;i++){
             funcionTamaño(planetsJson[i])
         }
     }
@@ -138,7 +134,7 @@ btnTamano.addEventListener('click',()=>{
         contadorTodos=0;
         btnSiguiente.disabled = false;
         btnPosterior.disabled = true;
-        for(let i=contadorMedianos;i<contadorMedianos+3;i++){
+        for(let i=0;i<3;i++){
             funcionTamaño(medianos[i])
         }
     }
@@ -149,7 +145,7 @@ btnTamano.addEventListener('click',()=>{
         contadorTodos=0;
         btnSiguiente.disabled = false;
         btnPosterior.disabled = true;
-        for(let i=contadorGrandes;i<contadorGrandes+3;i++){
+        for(let i=0;i<3;i++){
             funcionTamaño(gigantes[i])
         }
     }
@@ -220,65 +216,65 @@ extremadamenteAlta.addEventListener('click',()=>{
 btnSiguiente.addEventListener('click',()=>{
     divConteinerOrdenador.innerHTML=""
     if(selectTamaño.value=='Mediano'){
+        contadorMedianos >= 0 ? btnPosterior.disabled = false : btnPosterior.disabled = true
+        contadorMedianos<medianos.length-5 ? contadorMedianos+=3 : btnSiguiente.disabled = true;
         for(let i = contadorMedianos;i<contadorMedianos+3;i++){
             funcionTamaño(medianos[i])
         }
-        contadorMedianos >= 3 ? btnPosterior.disabled = false : btnPosterior.disabled = true
-        contadorMedianos<medianos.length-5 ? contadorMedianos+=3 : btnSiguiente.disabled = true;
     }
     else if(selectTamaño.value=='Gigante'){
+        contadorGrandes >= 0 ? btnPosterior.disabled = false : btnPosterior.disabled = true
+        contadorGrandes<gigantes.length-3 ? contadorGrandes+=3 : btnSiguiente.disabled = true;
         for(let i = contadorGrandes;i<contadorGrandes+3;i++){
             funcionTamaño(gigantes[i])
         }
-        contadorGrandes >= 3 ? btnPosterior.disabled = false : btnPosterior.disabled = true
-        contadorGrandes<gigantes.length-6 ? contadorGrandes+=3 : btnSiguiente.disabled = true;
     }
     else if(selectTamaño.value=='Colosal'){
+        contadorColosales >= 0 ? btnPosterior.disabled = false : btnPosterior.disabled = true
+        contadorColosales<colosales.length-3 ? contadorColosales+=3 : btnSiguiente.disabled = true;
         for(let i = contadorColosales;i<contadorColosales+3;i++){
             funcionTamaño(colosales[i])
         }
-        contadorColosales >= 3 ? btnPosterior.disabled = false : btnPosterior.disabled = true
-        contadorColosales<colosales.length-6 ? contadorColosales+=3 : btnSiguiente.disabled = true;
     }
     else if(selectTamaño.value=='all'){
+        contadorTodos >= 0 ? btnPosterior.disabled = false : btnPosterior.disabled = true
+        contadorTodos<planetsJson.length-3 ? contadorTodos+=3 : btnSiguiente.disabled = true;
         let rnd = Math.round(Math.random() * (planetsJson.length-3 - 0) + 0);
         for(let i = rnd;i<rnd+3;i++){
             funcionTamaño(planetsJson[i])
         }
-        contadorTodos >= 3 ? btnPosterior.disabled = false : btnPosterior.disabled = true
-        contadorTodos<planetsJson.length-6 ? contadorTodos+=3 : btnSiguiente.disabled = true;
     }
 })
 
 btnPosterior.addEventListener('click',()=>{
     divConteinerOrdenador.innerHTML=""
     if(selectTamaño.value=='Mediano'){
-        for(let i=contadorMedianos;i>contadorMedianos-3;i--){
+        contadorMedianos>=0 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
+        contadorMedianos>=3 ? contadorMedianos-=3 : btnPosterior.disabled = true;
+        for(let i=contadorMedianos;i<contadorMedianos+3;i++){
             funcionTamaño(medianos[i])
         }
-        contadorMedianos>= 3 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
-        contadorMedianos>3 ? contadorMedianos-=3 : btnPosterior.disabled = true;
     }
     else if(selectTamaño.value=='Gigante'){
-        for(let i=contadorGrandes;i>contadorGrandes-3;i--){
+        contadorGrandes >=0  ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
+        contadorGrandes>=3 ? contadorGrandes-=3 : btnPosterior.disabled = true;
+        for(let i=contadorGrandes;i<contadorGrandes+3;i++){
             funcionTamaño(gigantes[i])
         }
-        contadorGrandes >= 3  ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
-        contadorGrandes>3 ? contadorGrandes-=3 : btnPosterior.disabled = true;;
     }
     else if(selectTamaño.value=='Colosal'){
-        for(let i=contadorColosales;i>contadorColosales-3;i--){
+        contadorColosales >= 0 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
+        contadorColosales>=3 ? contadorColosales-=3 : btnPosterior.disabled = true;
+        for(let i=contadorColosales;i<contadorColosales+3;i++){
             funcionTamaño(colosales[i])
         }
-        contadorColosales >= 3 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
-        contadorColosales>3 ? contadorColosales-=3 : btnPosterior.disabled = true;
     }
     else if(selectTamaño.value=='all'){
-        for(let i=contadorTodos;i>contadorTodos-3;i--){
+        contadorTodos >= 0 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
+        contadorTodos>=3 ? contadorTodos-=3 : btnPosterior.disabled = true;
+        for(let i=contadorTodos;i<contadorTodos+3;i++){
             funcionTamaño(planetsJson[i])
         }
-        contadorTodos >= 3 ? btnSiguiente.disabled = false : btnSiguiente.disabled = true
-        contadorTodos>3 ? contadorTodos-=3 : btnPosterior.disabled = true;
     }
 })
 
