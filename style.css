@@ -67,6 +67,48 @@ header {
   background: linear-gradient(#f24437, #c62d1f);
 }
 
+.div-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+
+.div-logo a {
+  height: auto;
+  width: auto;
+}
+
+.div-logo .logos {
+  width: 2em;
+  height: 2em;
+  color: white;
+}
+
+.div-logo .logos:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
 .logo-img {
   width: 9.375em;
   height: 6.5625em;
