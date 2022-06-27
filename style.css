@@ -414,7 +414,7 @@ button[disabled] {
   pointer-events: none;
 }
 
-@media (min-width: 200px) and (max-width: 299px) {
+@media (min-width: 200px) and (max-width: 319px) {
   body {
     font-size: 8px;
   }
@@ -464,7 +464,7 @@ button[disabled] {
   }
 }
 
-@media (min-width: 300px) and (max-width: 499px) {
+@media (min-width: 320px) and (max-width: 499px) {
   body {
     font-size: 12px;
   }
