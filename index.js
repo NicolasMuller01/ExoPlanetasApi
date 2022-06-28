@@ -309,8 +309,8 @@ return divConteinerOrdenador.innerHTML+=
     <abbr title="El radio del planeta. El radio planetario es el producto de la relación entre el radio del planeta y el radio estelar.">Tamaño: ${radius} veces la tierra</abbr>
 </div>
 <div class="div3">
-    <model-viewer class="earth" src="/3d-models/Earth.glb" ar style="height:${radius<5 ? 60 : 30}px; width:${radius<5 ? 60 : 30}px;"ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager" disable-pan disable-zoom></model-viewer>
-    <model-viewer class="${nombre}" src="/3d-models/${skin}" ar style="height:${radius<5 ? 60*radius : 30*radius}px; width:${radius<5 ? 60*radius : 30*radius}px;" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager"disable-pan disable-zoom></model-viewer>
+    <model-viewer class="earth" src="/3d-models/Earth.glb" style="height:${radius<5 ? 60 : 30}px; width:${radius<5 ? 60 : 30}px;" ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager" disable-pan disable-zoom></model-viewer>
+    <model-viewer class="${nombre}" src="/3d-models/${skin}" style="height:${radius<5 ? 60*radius : 30*radius}px; width:${radius<5 ? 60*radius : 30*radius}px;" ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="0" loading="eager"disable-pan disable-zoom></model-viewer>
 </div>
 </div>
 `
